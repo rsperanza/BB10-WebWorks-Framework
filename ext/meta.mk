@@ -13,6 +13,7 @@ EXTRA_LIBVPATH+=$(QNX_LIB) \
                 $(WEBWORKS_DIR)/ext/utils/native/$(CPU)/$(VARIANT1)
 
 EXTRA_INCVPATH+=$(QNX_INCLUDE) \
+                $(QNX_INCLUDE)/freetype2 \
                 $(QNX_INCLUDE)/qt4 \
                 $(QNX_INCLUDE)/qt4/Qt \
                 $(QNX_INCLUDE)/qt4/QtCore \
